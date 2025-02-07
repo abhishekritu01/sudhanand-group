@@ -1,0 +1,72 @@
+1. Hero Section (Already Implemented)
+Heading: Welcome to Sudhanand Group
+Subheading: Building a Healthier & Better Future
+Call to Action Buttons: Get Started | Learn More
+
+
+
+2. About Us (Who We Are)
+Heading: Who We Are
+Content: Brief about Sudhanand Group, history, vision, and mission
+Image/Illustration: Founder’s photo or team working image
+
+
+3. Vision & Mission
+Heading: Our Vision & Our Mission
+Subheading 1: "Our Vision" with a short description
+Subheading 2: "Our Mission" with a short description
+Visuals: Icons or illustrations
+
+
+4. Why Choose Us?
+Heading: Why Choose Us?
+Key Points:
+✅ Quality You Can Trust
+✅ Personalized Solutions
+✅ Exceptional Support
+Visuals: Icons or animated stats
+
+
+5. Our Portfolio (Industries We Serve)
+Heading: Our Portfolio
+Subsections:
+Sudhanand Health Care Solutions Pvt. Ltd.
+Sudhanand Business Solutions Pvt. Ltd.
+Sudhanand Pharmacies Pvt. Ltd.
+Tiameds Technologies Pvt. Ltd.
+Sudhanand Hospitality Pvt. Ltd.
+ARC Sportzone
+Dr. M. D. Sachidananda Murthy Memorial Educational Trust ®
+Sudhanand Farms
+Visuals: Grid layout with images and descriptions
+6. Our Leadership Team
+Heading: Our Team
+Team Members with Designations:
+Dr. Arjun Sachidanand - Managing Director
+Dr. Sini Arjun - Director
+Capt. Raghu Das - COO
+Vijay Asrani - VP Internal Finance
+Abhinandan S. Rao - VP New Initiatives & Investments
+Meghana Jagadeesh - VP Pharma Division
+Srinivas C. - Head of Operations
+Keshava Murthy C. - Head of Internal Audits
+Visuals: Team member photos in a card/grid format
+
+
+7. Contact Us
+Heading: Get in Touch
+Content: Address, email, phone number, social media links
+Contact Form: Name, Email, Message
+Google Map Integration (if needed)
+
+
+
+8. Footer
+Quick Links: Home | About Us | Portfolio | Contact
+Social Media Links
+Copyright Notice
+Additional Enhancements
+✅ Animations: Smooth fade-ins, hover effects, and slide-ins
+✅ CTA Buttons: Encourage engagement with "Contact Us" or "Explore Services"
+✅ Testimonials/Case Studies (Optional)
+
