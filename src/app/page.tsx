@@ -1,13 +1,12 @@
 'use client';
 
-import NavSection from "./component/NavSection";
-import HeroSection from "./component/HeroSection";
 import AboutUs from "./component/AboutSection";
-import VisionMission from "./component/VissionMission";
-import WhyChooseUs from "./component/WhyChooseUs";
-import Portfolio from "./component/Portfolio";
 import ContactUs from "./component/ContactUs";
 import FooterSection from "./component/FooterSection";
+import HeroSection from "./component/HeroSection";
+import NavSection from "./component/NavSection";
+import Portfolio from "./component/Portfolio";
+import WhyChooseUs from "./component/WhyChooseUs";
 
 
 const page = () => {
@@ -16,7 +15,7 @@ const page = () => {
       <NavSection />
       <HeroSection />
       <AboutUs />
-      <VisionMission />
+      {/* <VisionMission /> */}
       <WhyChooseUs />
       <Portfolio />
       <ContactUs />

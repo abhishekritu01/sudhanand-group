@@ -1,93 +1,54 @@
 import React from 'react';
+import LogoComponent from './LogoComponent'; // Import LogoComponent
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-50 py-16 sm:py-24 lg:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center text-gray-900 sm:text-5xl">
-          About Sudhanand Group
+    <section className="bg-gray-50 py-20 sm:py-28 lg:py-36">
+      <div className="max-w-7xl mx-auto px-6 text-center">
+        {/* Header Section */}
+        <h2 className="text-5xl font-extrabold text-gray-900 sm:text-6xl mb-10">
+          About <span className="text-blue-600">Sudhanand Group</span>
         </h2>
+        
+        <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          Founded in 2010 by <strong>Rtn. Dr. Arjun Sachidanand</strong>, Sudhanand Group is committed to making a lasting impact across multiple sectors. 
+          Our mission is to foster innovation and deliver sustainable solutions in healthcare, education, IT, hospitality, and more.
+        </p>
 
-        <div className="mt-12 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Overview Section */}
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
+        {/* Company Values Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
+          <div className="bg-white shadow-lg rounded-xl p-8 transition-transform hover:scale-105">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Story</h3>
-            <p className="text-lg text-gray-600 text-center">
-              Founded in 2010 by <strong>Rtn. Dr. Arjun Sachidanand</strong>, Sudhanand Group is dedicated to transforming lives through
-              <strong> affordable, accessible healthcare</strong> and creating a positive impact across diverse sectors.
+            <p className="text-gray-600">
+              Established with the vision of accessible and affordable healthcare, we have expanded into diverse industries while staying true to our core mission of social betterment.
             </p>
           </div>
 
-          {/* Mission Section */}
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
+          <div className="bg-white shadow-lg rounded-xl p-8 transition-transform hover:scale-105">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
-            <p className="text-lg text-gray-600 text-center">
-              We aim to improve communities through innovative solutions in healthcare, education, IT, hospitality, and more.
+            <p className="text-gray-600">
+              To develop innovative solutions that enhance quality of life, ensuring accessibility and sustainability in every service we provide.
             </p>
           </div>
 
-          {/* Vision Section */}
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
+          <div className="bg-white shadow-lg rounded-xl p-8 transition-transform hover:scale-105">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h3>
-            <p className="text-lg text-gray-600 text-center">
-              To be a global leader in delivering affordable healthcare and services that drive positive change and better living standards.
+            <p className="text-gray-600">
+              To become a globally recognized leader in industries that drive positive change, shaping a better future for communities worldwide.
             </p>
           </div>
         </div>
 
-        <div className="mt-12 text-center">
-          <h3 className="text-3xl font-semibold text-gray-800 mb-6">What We Do</h3>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Over the years, Sudhanand Group has diversified into multiple sectors, including healthcare, hospitality, education, IT & BPO, organic farming, and sports. We focus on integrated solutions that promote sustainability, community well-being, and access to quality services for all.
-          </p>
-        </div>
+        {/* Divider */}
+        <div className="border-t border-gray-300 my-16 w-3/4 mx-auto"></div>
 
-        {/* List of Sectors */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">Healthcare</h4>
-            <p className="text-gray-600 text-center">
-              Affordable healthcare solutions that aim to improve the quality of life in communities.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">Hospitality</h4>
-            <p className="text-gray-600 text-center">
-              Providing high-quality hospitality services to ensure comfort and satisfaction.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">Education</h4>
-            <p className="text-gray-600 text-center">
-              Empowering communities through quality education and skill development initiatives.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">IT & BPO</h4>
-            <p className="text-gray-600 text-center">
-              Delivering innovative IT solutions and business process outsourcing services.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">Organic Farming</h4>
-            <p className="text-gray-600 text-center">
-              Promoting sustainable agriculture to improve food security and environmental health.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center bg-white shadow-lg p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">Sports</h4>
-            <p className="text-gray-600 text-center">
-              Supporting physical well-being through sports initiatives and community engagement.
-            </p>
-          </div>
+        {/* Logo Section */}
+        <div className="mt-16">
+          <h3 className="text-3xl font-semibold text-gray-800 mb-8">Our Brands</h3>
+          <LogoComponent />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
